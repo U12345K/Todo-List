@@ -1,0 +1,48 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.addBtn {
+    cursor: pointer;
+    background-color: #45a049;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.addBtn:hover {
+    background-color: #3e8e41;
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+li.checked {
+    background-color: #f2f2f2;
+    text-decoration: line-through;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
